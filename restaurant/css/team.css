@@ -1,0 +1,287 @@
+/*
+* @Author: acer
+* @Date:   2017-10-11 08:41:29
+* @Last Modified by:   acer
+* @Last Modified time: 2017-10-19 19:43:46
+*/
+@import url('base.css');
+/* 头部开始 */
+header{
+	width: 100%;
+	height:96px;
+}
+.logo{
+	width: 200px;
+	/* height: 100%; */
+    float: left;
+    margin-top:10px;
+    margin-left: 150px;
+}
+.logo>p{
+	font-size: 14px;
+	margin-left: -20px;
+}
+.head-main{
+	width: 770px;
+	height: 100%;
+	float: right;
+	/* margin: 0 226px; */
+}
+.head-main li{
+	width: 101px;
+	height: 43px;
+	float: left;
+	margin-right: 16px;
+}
+.head-main li:last-child{
+	margin-right: 0;
+}
+.head-main li:nth-child(4)>a{
+	background: #108e64;
+	color: #fff;
+}
+.head-main li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 14px;
+	color: #108e64;	
+	line-height: 43px;
+	text-align: center;
+	margin-top: 30px;
+}
+.head-main>li>a:hover{	
+	background: #108e64;
+	color: #fff;
+}
+/* 头部结束 */
+/* banner开始 */
+main{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+main>a{
+    width: 100%;
+    height: 580px;
+    display: block;
+
+}
+main>a>img{
+	width: 100%;
+	height:100%;
+	display: block;
+}
+.zhe{
+	width: 100%;
+	height: 580px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.zi1{
+	height: 135px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -80px;
+	margin-left: -200px;
+}
+.zi1>p{
+	font-size: 60px;
+	float: left;
+	color: #fff;
+    line-height: 135px;
+}
+.zi1>p:first-child{
+   color:#108e64;
+   margin-right: 60px;
+}
+/* banner结束 */
+/* 大盒子开始 */
+.big-box{
+	width: 1200px;
+	height: auto;
+	background: #fff;
+	margin: 0 auto;
+	box-shadow: 1px 19px 30px rgba(0,0,0,0.3);
+	padding: 50px;
+	box-sizing: border-box;
+}
+.tishi{
+	width: 100%;
+	height:40px;
+	margin: 0 auto 20px auto;
+}
+.icon-location_fill{
+	float: left;
+}
+.tishi>p,.tishi>a{
+	font-size: 14px;
+	line-height:40px;
+	color: #000;
+	float: left;
+}
+.tishi>a:hover{
+    text-decoration: underline;
+}
+.tishi>p:nth-of-type(2){
+	font-size: 12px;
+}
+.top-zi{
+	width: 100%;
+	height: auto;
+}
+.top-zi>p{
+	font-size: 26px;
+	color: #000;
+	text-align: center;
+}
+.top-zi>p:nth-child(2){
+	font-size: 20px;
+}
+/* team主要内容开始 */
+.box-main{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 35px 0;
+} 
+.box-main>div{
+	width: 200px;
+	height: 200px;
+	background: #313131;
+	border-radius: 50%;
+	float: left;
+	margin-top: 52px;
+	margin-right: 10px;
+}
+.box-main>div:nth-of-type(3){
+	width: 250px;
+	height: 250px;
+	background: #313131;
+	border-radius: 50%;
+	float: left;
+	margin-top: 0;
+}
+.box-main>div>img{
+	width: 94%;
+	height: 94%;
+	border-radius: 50%;
+	margin-left: 6px;
+	margin-top: 6px;
+}
+.box-main>div:nth-of-type(3)>img{
+	margin-left: 8px;
+	margin-top: 8px;
+}
+.main-bottom{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-top: 70px;
+}
+.main-bottom>li{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 50px;
+}
+.main-bottom>li>a{
+	width: 242px;
+	height: 166px;
+	float: left;
+	margin-top: 20px;
+	background: url('../img/t1.jpg') no-repeat center 100%;
+}
+.main-bottom>li:nth-of-type(2)>a{
+	background: url('../img/t2.png') no-repeat center 100%;
+}
+.main-bottom>li:nth-of-type(3)>a{
+	background: url('../img/t3.jpg') no-repeat center 100%;
+}
+.main-bottom>li:nth-of-type(4)>a{
+	background: url('../img/t4.jpg') no-repeat center 100%;
+}
+.main-bottom>li:nth-of-type(5)>a{
+	background: url('../img/t5.png') no-repeat center 100%;
+}
+.main-bottom>li>a:nth-of-type(2){
+	width: 340px;
+	height:200px; 
+	margin-top: 0;
+	float: left;	
+}
+.main-bottom>li>div{
+	width: 500px;
+	height: 180px;
+	float: left;
+	margin-top: 10px;
+	padding:  20px;
+	box-sizing: border-box;
+	box-shadow:1px 2px 9px rgba(0, 0, 0, 0.5)
+}
+.main-bottom>li>div>p{
+	font-size: 20px;
+}
+.main-bottom>li>div>p:nth-child(2){
+	font-size: 14px;
+	margin-top: 5px;
+	color: #a1a1a1;
+}
+.main-bottom>li>div>a{
+	float: right;
+	font-size: 12px;
+	color: #000;
+	margin-top:35px;
+}
+.main-bottom>li>div>a:hover{
+	text-decoration: underline;
+}
+/* team主要内容结束 */
+/* 大盒子结束 */
+/* 关于我们开始 */
+.about-box{
+	width: 100%;
+	height: 200px;
+	background: #414b55;
+	margin-top: 50px;
+	overflow: hidden;
+}
+.about-main{
+	width: 1000px;
+	height: 100%;
+	margin: 50px auto;
+}
+.about-main>div{
+	width: 300px;
+	height: 100%;
+	float: left;
+}
+.about-left>p{
+    font-size: 18px;
+    color: #108e64;
+}
+.about-center>p,.about-right>p{
+	font-size: 18px;
+	color: #979faa;
+}
+.about-center>a{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	float: left;
+	padding-top: 2px;
+	/* background: #fff; */
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.about-center>a:first-of-type{
+	background: #108e64;
+}
+.about-right>p:nth-child(1)~p{
+	font-size: 12px;
+	line-height: 30px;
+
+}
+/* 关于我们结束 */
